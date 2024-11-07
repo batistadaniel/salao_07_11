@@ -1,0 +1,10 @@
+@import '../../../global/global.css';
+@import '../../homes/adm/partials/header.css';
+@import '../../homes/adm/partials/global.css';
+
+.main-menu {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+}

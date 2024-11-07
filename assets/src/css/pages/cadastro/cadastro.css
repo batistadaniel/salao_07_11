@@ -1,0 +1,87 @@
+@import '../../global/global.css';
+@import './partials/';
+
+body, html {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cor-branco);
+}
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cadastro-form h1 {
+    font-size: var(--fonte-tela-inicial);
+    color: var(--cor-principal);
+    letter-spacing: -5px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: -5px;
+    padding: 50px;
+}
+
+.cadastro-form .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+select, input[type=text], input[type=password] {
+    padding: 18px 15px;
+    border: 1px solid #948f8fb0;
+    border-radius: 12px;
+    outline: none;
+    width: 100%; 
+    font-size: 18px;
+}
+
+.btns-cadastro {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.btn-cadastro {
+    padding: 16px;
+    border-radius: 12px;
+    font-size: var(--fonte-btn-inicial);
+    font-weight: 300;       
+    width: 50%;
+}
+
+.btn-cadastro:nth-child(1) {
+    color: var(--cor-principal);
+    border: 2px solid var(--cor-principal);
+    background-color: var(--cor-branco);
+}
+.btn-cadastro:nth-child(2) {
+    color: var(--cor-branco);
+    background-color: var(--cor-verde);
+}
+
+.termosEPrivacidade {
+    padding: 20px;
+}
+.termosEPrivacidade a {
+    text-decoration: underline;
+    color: var(--cor-principal);
+}
+.termosEPrivacidade a svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--cor-principal);
+}
