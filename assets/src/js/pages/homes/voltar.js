@@ -1,4 +1,4 @@
-const btnEntrar = document.getElementById('btnEntrar');
+const btnEntrada = document.getElementById('btnEntrar');
 const btnCadastrar = document.getElementById('btnCadastrar');
 
 btnEntrar.onclick = () => {
